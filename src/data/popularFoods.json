@@ -1,0 +1,103 @@
+{
+  "popularFoods": [
+    {
+      "FoodImg": "/assets/biryani.jpeg",
+      "FoodName": "Chicken Dum Biryani",
+      "ResImg": "/assets/res-logo.webp",
+      "ResName": "Grills Barbecue",
+      "Reviews": "4.8 (3781 delivery reviews)",
+      "Location": "Washington, Illinois, USA",
+      "Rate": "$40",
+      "Time": "30",
+      "DelCharge": "$5"
+    },
+    {
+      "FoodImg": "/assets/chicken-curry.jpg",
+      "FoodName": "Full Chicken Curry",
+      "ResImg": "/assets/res-logo.webp",
+      "ResName": "Good Food",
+      "Reviews": "4.8 (3781 delivery reviews)",
+      "Location": "Washington, Illinois, USA",
+      "Rate": "$40",
+      "Time": "30",
+      "DelCharge": "$5"
+    },
+    {
+      "FoodImg": "/assets/grilled-chicken.jpg",
+      "FoodName": "Grilled Chicken",
+      "ResImg": "/assets/res-logo.webp",
+      "ResName": "Grills Barbecue",
+      "Reviews": "4.8 (3781 delivery reviews)",
+      "Location": "Washington, Illinois, USA",
+      "Rate": "$40",
+      "Time": "30",
+      "DelCharge": "$5"
+    },
+    {
+      "FoodImg": "/assets/biryani.jpeg",
+      "FoodName": "Chicken Dum Biryani",
+      "ResImg": "/assets/res-logo.webp",
+      "ResName": "Grills Barbecue",
+      "Reviews": "4.8 (3781 delivery reviews)",
+      "Location": "Washington, Illinois, USA",
+      "Rate": "$40",
+      "Time": "30",
+      "DelCharge": "$5"
+    },
+    {
+      "FoodImg": "/assets/chicken-curry.jpg",
+      "FoodName": "Full Chicken Curry",
+      "ResImg": "/assets/res-logo.webp",
+      "ResName": "Good Food",
+      "Reviews": "4.8 (3781 delivery reviews)",
+      "Location": "Washington, Illinois, USA",
+      "Rate": "$40",
+      "Time": "30",
+      "DelCharge": "$5"
+    },
+    {
+      "FoodImg": "/assets/grilled-chicken.jpg",
+      "FoodName": "Grilled Chicken",
+      "ResImg": "/assets/res-logo.webp",
+      "ResName": "Grills Barbecue",
+      "Reviews": "4.8 (3781 delivery reviews)",
+      "Location": "Washington, Illinois, USA",
+      "Rate": "$40",
+      "Time": "30",
+      "DelCharge": "$5"
+    },
+    {
+      "FoodImg": "/assets/biryani.jpeg",
+      "FoodName": "Chicken Dum Biryani",
+      "ResImg": "/assets/res-logo.webp",
+      "ResName": "Grills Barbecue",
+      "Reviews": "4.8 (3781 delivery reviews)",
+      "Location": "Washington, Illinois, USA",
+      "Rate": "$40",
+      "Time": "30",
+      "DelCharge": "$5"
+    },
+    {
+      "FoodImg": "/assets/chicken-curry.jpg",
+      "FoodName": "Full Chicken Curry",
+      "ResImg": "/assets/res-logo.webp",
+      "ResName": "Good Food",
+      "Reviews": "4.8 (3781 delivery reviews)",
+      "Location": "Washington, Illinois, USA",
+      "Rate": "$40",
+      "Time": "30",
+      "DelCharge": "$5"
+    },
+    {
+      "FoodImg": "/assets/grilled-chicken.jpg",
+      "FoodName": "Grilled Chicken",
+      "ResImg": "/assets/res-logo.webp",
+      "ResName": "Grills Barbecue",
+      "Reviews": "4.8 (3781 delivery reviews)",
+      "Location": "Washington, Illinois, USA",
+      "Rate": "$40",
+      "Time": "30",
+      "DelCharge": "$5"
+    }
+  ]
+}
