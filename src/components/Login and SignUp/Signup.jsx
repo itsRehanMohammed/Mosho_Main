@@ -68,7 +68,7 @@ const Signup = () => {
             </div>
           </form>
           <div className="extra-usefull-links">
-            <a href="https://app-themosho.netlify.app/login">Already have an account? Login </a>
+            <a href="http://app.themosho.com/login">Already have an account? Login </a>
           </div>
           <div className="signup-copyright">
             <p>
