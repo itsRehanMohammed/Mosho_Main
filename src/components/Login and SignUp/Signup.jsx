@@ -26,7 +26,7 @@ const Signup = () => {
       // alert("Account Created Successfully");
       toast.success("Account Created Successfully");
       setTimeout(() => {
-        window.location.href = "http://localhost:3001/login";
+        window.location.href = "http://app.themosho.com/login";
       }, 1000);
     } else {
       // alert("Errors");
