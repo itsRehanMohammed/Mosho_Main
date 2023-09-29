@@ -85,9 +85,7 @@ const Popular = ({ MenuDB }) => {
               MenuDB.map((item, index) => (
                 <SwiperSlide key={item._id}>
                   <div className="flex flex-col rounded-xl items-start shadow-lg w-[320px] h-[350px] p-5 my-4">
-                    <a
-                      href={`https://app-themosho.netlify.app/menu/${item._id}`}
-                    >
+                    <a href={`https://app.themosho.com/menu/${item._id}`}>
                       <div className="relative">
                         <img
                           src={item.image}
