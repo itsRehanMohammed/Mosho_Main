@@ -46,7 +46,7 @@ const Service = () => {
             </div>
           </div>
           <button className="bg-[#ff492f] text-white px-5 py-3 text-[15px] rounded-3xl md:mt-0 mt-5">
-            Order Your Food Now
+            <a href={`https://app.themosho.com/menu`}> Order Your Food Now </a>
           </button>
         </div>
       </div>
