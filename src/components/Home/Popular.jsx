@@ -6,7 +6,7 @@ import "swiper/css/navigation";
 import { Navigation, Autoplay, Pagination } from "swiper";
 import { useState, useEffect, useRef } from "react";
 
-const Popular = () => {
+const Popular = ({ MenuDB }) => {
   const [nextWhite, setNextWhite] = useState(false);
   const [prevWhite, setPrevWhite] = useState(false);
 
@@ -81,38 +81,42 @@ const Popular = () => {
             modules={[Navigation, Autoplay, Pagination]}
             className="mySwiper"
           >
-            {data.popularFoods.length > 0 &&
-              data.popularFoods.map((item, index) => (
-                <SwiperSlide key={index}>
+            {MenuDB.length > 0 &&
+              MenuDB.map((item, index) => (
+                <SwiperSlide key={item._id}>
                   <div className="flex flex-col rounded-xl items-start shadow-lg w-[320px] h-[350px] p-5 my-4">
-                    <div className="relative">
-                      <img
-                        src={item.FoodImg}
-                        alt="biryani"
-                        className="rounded-xl"
-                      />
-                      <div className="absolute bottom-2 left-1 flex items-center">
+                    <a
+                      href={`https://app-themosho.netlify.app/menu/${item._id}`}
+                    >
+                      <div className="relative">
                         <img
-                          src={item.ResImg}
-                          alt="restaurant-logo"
-                          className="w-8 rounded-full"
+                          src={item.image}
+                          alt="biryani"
+                          className="rounded-xl"
                         />
-                        <h1 className="ml-2 text-white font-extrabold font-spectral text-lg">
-                          {item.ResName}
-                        </h1>
+                        <div className="absolute bottom-2 left-1 flex items-center">
+                          <img
+                            src={"./assets/logo.png"}
+                            alt="restaurant-logo"
+                            className="w-8 rounded-full"
+                          />
+                          <h1 className="ml-2 text-white font-extrabold font-spectral text-lg">
+                            Mosho
+                          </h1>
+                        </div>
                       </div>
-                    </div>
+                    </a>
                     <h1 className="text-[20px] font-semibold mt-1">
-                      {item.FoodName}
+                      {item.product_name}
                     </h1>
-                    <p className="text-[#999999] mt-1">⭐ {item.Reviews}</p>
+                    <p className="text-[#999999] mt-1">⭐ 4.3</p>
                     <p className="flex flex-row items-center text-[#999999] mt-1">
                       <img
                         src="/assets/location.svg"
                         alt="location"
                         width="30px"
                       />
-                      {item.Location}
+                      📍 Vashi, Navi Mumbai
                     </p>
                     <p className="text-[11px] text-[#999999] mt-1">
                       <span className="text-[20px] font-bold text-black">

@@ -7,12 +7,12 @@ import Popular from "../components/Home/Popular";
 import Service from "../components/Home/Service";
 import Testimonial from "../components/Home/Testimonial";
 
-const Home = () => {
+const Home = ({ MenuDB }) => {
   return (
     <>
       <Navbar />
       <Hero />
-      <Popular />
+      <Popular MenuDB={MenuDB} />
       <Service />
       <Testimonial />
       <Download />
